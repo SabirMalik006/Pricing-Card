@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.back{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e0e3e9;
+}
+.card{
+    padding: 25px 30px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    height: 65vh;
+    width: 27vw;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.heading>p{
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    position: relative;
+    display: inline-block;
+}
+.heading>p::after{  
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #875DF5;
+}
+.pricing{
+    margin-top: 40px;
+    /* background-color: aqua; */
+}
+.pricing>p{
+    color: rgb(25, 24, 24);
+    font-weight: bold;
+    font-size: 1.9rem;
+    opacity: 0.8;
+}
+.pricing>p>span{
+    opacity: 0.7;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+.box{
+    position: relative;
+    letter-spacing: 2px;
+    line-height: 20px;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-left: 15px;
+    height: 75px;
+    width: 275px;
+    background-color: #cacdceba;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.box>p{
+    position:absolute;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    font-weight: normal;
+}
+button{
+    margin-top: 30px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #875DF5;
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+button:hover{
+    transition: all ease 0.7s;
+    color: #000;
+    background-color: lightblue;
+}
+
+.badge{
+    border-radius: 10px;
+    height: 35px;
+    width: 90px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    transform: rotate(10deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 56, 56);
+    color: #fff;
+}
+.badge>p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.9rem;
+}   
+.badge:hover{
+    background-color: #d2cece;
+    color: rgb(26, 26, 26);
+    transition: all ease 0.7s;
+}
